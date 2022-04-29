@@ -105,9 +105,8 @@ img.logo{
     justify-content: center;
     margin: 30px;
 }
-
 /* Le doy un tamaño distinto a las imagenes dentro del slider, solamente les cambio la altura
-si les camnbio el ancho desde aca no pasa nada, no quedo como queria */
+si les cambio el ancho desde aca no pasa nada, no quedo como queria */
 .baileys{
     height: 700px;
 }
@@ -121,8 +120,17 @@ si les camnbio el ancho desde aca no pasa nada, no quedo como queria */
 }
 
 /* Al texto dentro del slider le cambio el color y el tamaño de las letras */
-.baileys2{
-    color: blueviolet;
+.baileys-texto{
+    color: red;
+    font-size: x-large;
+}
+
+.coquitorta-texto{
+    color: red;
+    font-size: x-large;
+}
+.maracuya-texto{
+    color: red;
     font-size: x-large;
 }
 
@@ -152,6 +160,41 @@ h3{
     width: 200px;
     height: 200px;
 }
+
+
+
+/* Hago el Footer */
+
+footer.row{
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer{
+    margin-top: 2%;
+}
+
+.pie{
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+/* Productos */
+.row{
+    justify-content: space-between;
+}
+
+.titulo-productos{
+    text-align: center;
+    margin: 2%;
+}
+
+
+
 
 
 
